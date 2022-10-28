@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<div class="logo"><img src="./images/LogoFinal2.jpg" alt="logo"/></div>
+
+<navbar>
+    <div class="navbar">
+       <a href="./home.html"><li>Home</li></a> 
+       <a href="./about.html"><li>About</li></a> 
+       <a href="./contact.html"><li>Contact</li></a> 
+        <a href="./courses.html"><li>Courses</li></a> 
+        <a href="./more.html"><li>More</li></a> 
+    </div>
+    <div class="navbar2"  onclick="show()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="menu" id="menu" style="display: none;">
+        <a href="./home.html"><li>Home</li></a> 
+        <a href="./about.html"><li>About</li></a> 
+        <a href="./contact.html"><li>Contact</li></a> 
+         <a href="./more.html"><li>Courses</li></a> 
+         <a href="./services.html"><li>More</li></a> 
+    </div>
+    </navbar>
+<body>
+<div class="mainpage">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9" style="padding: 15px;">
+        <!-- <h2>Carousel Example</h2>   -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="./images/pic1.jpg" alt="pic1" style="width:100%; height: 420px;">
+            </div>
+            <div class="item">
+              <img src="./images/pic2.jpg" alt="pic2" style="width:100%; height: 420px">
+            </div>
+            <div class="item">
+              <img src="./images/pic3.jpg" alt="pic3" style="width:100%; height: 420px">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 padding-right-0" style="padding-right:1px">
+        <div class="leader">
+        <ul>
+            <li class="font__fontrols__style">    
+            <center>
+            <img src="images/governor-photo.jpg" height="200px" alt="Hon'ble Chancellor">
+            </center>
+        <h4>Smt. Anandiben Patel</h4>
+        <p class="font__fontrols__style">Chancellor<br>Hon'ble Governor of Uttar Pradesh <br></p>
+        <ul class="msg-link">
+        <li class="font__fontrols__style"><a href="http://164.100.190.32/en/page/profile" target="_blank" style="background-color:#FF7926;"><font color="white">Profile</font></a></li>
+        <li class="font__fontrols__style"><a href="Chamsg.aspx#chancellor" style="background-color:#FF7926;color:White;"><font color="white">MESSAGE</font></a></li>
+        </ul>
+        </li>
+            
+        <li class="font__fontrols__style"><img src="./images/VCSirKPS1.jpg" height="200px" alt="Vice-Chancellor" title="Vice-Chancellor">
+
+            <h4>Prof. K. P. Singh</h4>
+            <p class="font__fontrols__style">Vice-Chancellor <br>Mahatma Jyotiba Phule Rohilkhand University, Bareilly</p>
+            <ul class="msg-link">
+            <li class="font__fontrols__style"><a href="underconstrution.aspx" style="background-color:#FF7926"><font color="white">Profile</font></a></li>
+            <li class="font__fontrols__style"><a href="VCmsg.aspx#vc_chancellor" style="background-color:#FF7926"><font color="white">MESSAGE</font></a></li>
+            </ul>
+            </li>
+        </ul>
+        </div>
+            </div>
+    </div>
+    </div>
+
+<!-- corner -event- news -->
+
+<div class="cantainer" style="background-color: #e7edf2; margin-top:4%">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="title">
+            <h4>&nbsp;Campus - Corner</h4>
+            <div class="bigLine"></div>
+            </div>
+            
+            <div class="news-announcement external-url">
+               <marquee direction="up" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="4">      
+            <div class="vticker" id="">
+            
+            
+            <ul>
+              <li class="news-item font__fontrols__style">
+                 <span class="arw"><em class="fa fa-long-arrow-right"></em></span>
+                   <a href="http://www.zero-tb.in/">
+                    <font color="#ab0911">Zero Tuberculosis</font><span class="dtype"></span></a> 
+                     <em class="fa fa-file-pdf-o"></em>
+                       <p class="ndate font__fontrols__style"><!---Date uploaded : 17/11/2021---></p>  
+                         <span class="newicon">
+                          <div class="line"></div>
+                  </span></li></ul>
+            
+            <ul>
+              <li class="news-item font__fontrols__style">
+                 <span class="arw"><em class="fa fa-long-arrow-right"></em></span>
+                   <a href="http://www.mjpru.ac.in/CampusAdmissionNotice.aspx">
+                    <font color="#ab0911">MJPRU Campus Admission Notice 2022-23</font><span class="dtype"></span></a> 
+                     <em class="fa fa-file-pdf-o"></em>
+                       <p class="ndate font__fontrols__style"><!---Date uploaded : 17/11/2021---></p>  
+                         <span class="newicon">
+                            <div class="line"></div>
+                  </span></li></ul>
+            
+            <ul>
+              <li class="news-item font__fontrols__style">
+                 <span class="arw"><em class="fa fa-long-arrow-right"></em></span>
+                   <a href="NoticeBoard/miss/2022/CulturalCommitteeCampus22102022.pdf" target="_blank">
+                    <font color="#ab0911">Cultural Committee Notice for Campus</font><span class="dtype"></span></a> 
+                     <em class="fa fa-file-pdf-o"></em>
+                       <p class="ndate font__fontrols__style"><!---Date uploaded : 17/11/2021---></p>  
+                         <span class="newicon">
+                            <div class="line"></div>
+                  </span></li></ul>
+            
+            
+            
+            <ul>
+              <li class="news-item font__fontrols__style">
+                 <span class="arw"><em class="fa fa-long-arrow-right"></em></span>
+                   <a href="MBADeanSciences_Notice.aspx">
+                    <font color="#ab0911">MBA (Gen) / MBA (Mktg.), II &amp; IV Semester Examination Schedule Notice</font><span class="dtype"></span></a> 
+                     <em class="fa fa-file-pdf-o"></em>
+                       <p class="ndate font__fontrols__style"><!---Date uploaded : 17/11/2021---></p>  
+                         <span class="newicon">
+                            <div class="line"></div>
+                  </span></li></ul>
+            
+            <ul>
+              <li class="news-item font__fontrols__style">
+                 <span class="arw"><em class="fa fa-long-arrow-right"></em></span>
+                   <a href="ITNotice.aspx">
+                    <font color="#ab0911">AICTE Mandatory Disclosure</font><span class="dtype"></span></a> 
+                     <em class="fa fa-file-pdf-o"></em>
+                       <p class="ndate font__fontrols__style"><!---Date uploaded : 17/11/2021---></p>  
+                         <span class="newicon">
+                            <div class="line"></div>
+                  </span></li></ul>
+            
+            
+            <ul>
+              <li class="news-item font__fontrols__style">
+                 <span class="arw"><em class="fa fa-long-arrow-right"></em></span>
+                   <a href="https://emjpru.in/" target="_blank">
+                    <font color="#ab0911">Online Student Learning Portal </font><span class="dtype"></span></a> 
+                     <em class="fa fa-file-pdf-o"></em>
+                       <p class="ndate font__fontrols__style"><!---Date uploaded : 17/11/2021---></p>  
+                         <span class="newicon">
+                            <div class="line"></div>
+                  </span></li></ul>
+                
+            
+            <ul>
+              <li class="news-item font__fontrols__style">
+                    
+                    <span class="arw"><em class="fa fa-long-arrow-right"></em></span>
+              <a href="https://mjprudor.ac.in/" target="_blank">
+                              <font color="#ab0911">Research Management System </font><span class="dtype"></span></a> 
+                      <em class="fa fa-file-pdf-o"></em>
+                 
+                     <p class="ndate font__fontrols__style"><!---Date uploaded : 17/01/2021---></p>  
+                  <span class="newicon">
+                    <div class="line"></div>
+            
+                  </span></li></ul>
+                
+                
+            
+                
+                
+                <ul>
+              <li class="news-item font__fontrols__style">
+                    
+                    <span class="arw"><em class="fa fa-long-arrow-right"></em></span>
+              <a href="pdf/BrocherFinal131022.pdf" target="_blank">
+                              <font color="#ab0911">New Courses in COEMS, Humanities , MJPRU in 2022-23 </font><span class="dtype"></span></a> 
+                      <em class="fa fa-file-pdf-o"></em>
+                 
+                     <p class="ndate font__fontrols__style"><!---Date uploaded : 17/01/2021---></p>  
+                  <span class="newicon">
+                    <div class="line"></div>
+            
+                  </span></li></ul>
+                 
+            
+                    <ul>
+              <li class="news-item font__fontrols__style">
+                    
+                    <span class="arw"><em class="fa fa-long-arrow-right"></em></span>
+              <a target="_blank" href="ITNotice.aspx">
+                              <font color="#ab0911">IET / M.B.A Notice </font><span class="dtype"></span></a> 
+                      <em class="fa fa-file-pdf-o"></em>
+                 
+                     <p class="ndate font__fontrols__style"><!---Date uploaded-----></p>  
+                  <span class="newicon">
+                    <div class="line"></div>
+            
+                  </span></li></ul>
+                
+              
+                <ul>
+              <li class="news-item font__fontrols__style">
+                    
+                    <span class="arw"><em class="fa fa-long-arrow-right"></em></span>
+              <a target="_blank" href="http://www.mjpru.ac.in/NoticeBoard/miss/2016/EngineeringBooks16032016.pdf">
+                              <font color="#ab0911">Engineering Online Library </font><span class="dtype"></span></a> 
+                      <em class="fa fa-file-pdf-o"></em>
+                 
+                     <p class="ndate font__fontrols__style"><!---Date uploaded-----></p>  
+                  <span class="newicon">
+                    <div class="line"></div>
+            
+                  </span></li></ul>
+            
+                 
+            
+            
+            
+            
+            
+            
+            
+            
+              
+            </div></marquee>
+            
+                         
+          
+            </div>
+            </div>
+            <div class="col-md-6" >
+                <div class="title"><h4>&nbsp;Events</h4>
+                    <div class="bigLine2"></div>
+                </div>
+                
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="./images/pic1.jpg" alt="pic1" style="width:100%; height: 420px;">
+                    </div>
+                    <div class="item">
+                      <img src="./images/pic2.jpg" alt="pic2" style="width:100%; height: 420px">
+                    </div>
+                    <div class="item">
+                      <img src="./images/pic3.jpg" alt="pic3" style="width:100%; height: 420px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+        <div class="col-md-3">
+            <div class="title">
+            <h4>Affiliated - Colleges</h4>
+            <div class="bigLine3"></div>
+            </div>
+            <div class="news-announcement external-url">
+                <marquee direction="down" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="4">     
+            <div class="vticker">
+            
+            
+                
+                
+             <ul>
+              <li class="news-item font__fontrols__style">
+                     <a href="NoticeBoard/miss/2022/MJPRUVacantSeatsAdvertisment18102022.pdf" target="_blank">
+                              <font color="#ab0911">Registration for Admission in CUET B. Pharm. 1st Year / B. Pharm. 2nd Year ( Lateral Entry ) &amp; B. Tech. 2nd Year ( Lateral Entry )</font><span class="dtype"></span></a> 
+                      <em class="fa fa-file-pdf-o"></em>
+                     <p class="ndate font__fontrols__style"><!--Date uploaded : 02/02/2021--></p>  
+                    <span class="newicon">
+                        <div class="line"></div>
+                  </span>
+              </li></ul>
+             
+             <ul>
+              <li class="news-item font__fontrols__style">
+                     <a href="http://admission.mjpruiums.in/(S(xrtrlb04vtx0kj1a3etuok33))/Main.aspx" target="_blank">
+                              <font color="#ab0911">Registration for Spot Admission for B.Tech Course 2022-2023 (Click on Candidate Login for New Registration)</font><span class="dtype"></span></a> 
+                      <em class="fa fa-file-pdf-o"></em>
+                     <p class="ndate font__fontrols__style"><!--Date uploaded : 02/02/2021--></p>  
+                    <span class="newicon">
+                        <div class="line"></div>
+                  </span>
+              </li></ul>
+            
+                <ul>
+              <li class="news-item font__fontrols__style">
+                     <a href="https://uptac.admissions.nic.in/" target="_blank">
+                              <font color="#ab0911">UPTAC CUET-PG Registration and Counseling (MBA and MCA Admissions based on CUET-PG 2022)</font><span class="dtype"></span></a> 
+                      <em class="fa fa-file-pdf-o"></em>
+                     <p class="ndate font__fontrols__style"><!--Date uploaded : 02/02/2021--></p>  
+                    <span class="newicon">
+                        <div class="line"></div>
+                  </span>
+              </li></ul>
+                
+                
+            
+              <ul>
+              <li class="news-item font__fontrols__style">
+                 <span class="arw"><em class="fa fa-long-arrow-right"></em></span>
+                   <a href="NoticeBoard/miss/2022/CulturalCommitteeColleges22102022.pdf" target="_blank">
+                    <font color="#ab0911">Cultural Committee Notice for Colleges</font><span class="dtype"></span></a> 
+                     <em class="fa fa-file-pdf-o"></em>
+                       <p class="ndate font__fontrols__style"><!---Date uploaded : 17/11/2021---></p>  
+                         <span class="newicon">
+                            <div class="line"></div>
+                  </span></li></ul>
+            
+                <ul>
+              <li class="news-item font__fontrols__style">
+                     <a target="_blank" href="vacancy.aspx">
+                              <font color="#ab0911">Vacancy</font><span class="dtype"></span></a> 
+                      <em class="fa fa-file-pdf-o"></em>
+                     <p class="ndate font__fontrols__style"></p>  
+                    <span class="newicon">
+                        <div class="line"></div>
+                  </span>
+              </li></ul>
+            
+              <ul>
+              <li class="news-item font__fontrols__style">
+                     <a target="_blank" href="NoticeBoard/miss/2022/AdmissionNoticeForCampus17102022.pdf">
+                              <font color="#ab0911">Admissions Notice for University Campus</font><span class="dtype"></span></a> 
+                      <em class="fa fa-file-pdf-o"></em>
+                     <p class="ndate font__fontrols__style"></p>  
+                    <span class="newicon">
+                        <div class="line"></div>
+                  </span>
+              </li></ul>
+            
+                <ul>
+              <li class="news-item font__fontrols__style">
+                     <a target="_blank" href="NoticeBoard/miss/2021/ResultFormula25092021.pdf">
+                              <font color="#ab0911">M.J.P.R.U. Result Calculating Formula</font><span class="dtype"></span></a> 
+                      <em class="fa fa-file-pdf-o"></em>
+                     <p class="ndate font__fontrols__style"></p>  
+                    <span class="newicon">
+                        <div class="line"></div>
+                  </span>
+              </li></ul>
+                
+                <ul>
+              <li class="news-item font__fontrols__style">
+                     <a target="_blank" href="pdf/08112021.pdf">
+                              <font color="#ab0911">AICTE Approved Online FDP on *Emerging Trends in Area of Data Science*</font><span class="dtype"></span></a> 
+                      <em class="fa fa-file-pdf-o"></em>
+                     <p class="ndate font__fontrols__style"></p>  
+                    <span class="newicon">
+                        <div class="line"></div>
+                  </span>
+              </li></ul>
+                
+            
+                
+                
+                   <ul>
+              <li class="news-item font__fontrols__style">
+                    
+                    <span class="arw"><em class="fa fa-long-arrow-right"></em></span>
+              <a href="https://admission.mjpruiums.in/(S(4jru22yeh1jmsyfpgzcrprzy))/Main.aspx" target="_blank_">
+                              <font color="#ab0911">Online Entrance Form LL.B./LL.M./M.Ed. </font><span class="dtype"></span></a> 
+                      <em class="fa fa-file-pdf-o"></em>
+                 
+                     <p class="ndate font__fontrols__style"></p>  
+                  <span class="newicon">
+                    <div class="line"></div>
+            
+                  </span></li></ul>
+            
+                    
+            
+                  <ul>
+              <li class="news-item font__fontrols__style">
+                    
+                    <span class="arw"><em class="fa fa-long-arrow-right"></em></span>
+              <a href="pdf/BrocherFinal131022.pdf" target="_blank">
+                              <font color="#ab0911">New Courses in COEMS, Humanities , MJPRU in 2022-23 </font><span class="dtype"></span></a> 
+                      <em class="fa fa-file-pdf-o"></em>
+                 
+                     <p class="ndate font__fontrols__style"><!---Date uploaded : 17/01/2021---></p>  
+                  <span class="newicon">
+                    <div class="line"></div>
+            
+                  </span></li></ul>
+                        
+                
+            
+                    
+            
+            
+            
+                  <ul>
+              <li class="news-item font__fontrols__style">
+                    
+                    <span class="arw"><em class="fa fa-long-arrow-right"></em></span>
+              <a target="_blank" href="NSSNotice.aspx">
+                              <font color="#ab0911">N.S.S Notice for Colleges </font><span class="dtype"></span></a> 
+                      <em class="fa fa-file-pdf-o"></em>
+                 
+                     <p class="ndate font__fontrols__style"></p>  
+                  <span class="newicon">
+                    <div class="line"></div>
+            
+                  </span></li></ul>
+                
+            <ul>
+              <li class="news-item font__fontrols__style">
+                    
+                    <span class="arw"><em class="fa fa-long-arrow-right"></em></span>
+              <a target="_blank" href="Sports.aspx">
+                              <font color="#ab0911">Sport Notice </font><span class="dtype"></span></a> 
+                      <em class="fa fa-file-pdf-o"></em>
+                 
+                     <p class="ndate font__fontrols__style"></p>  
+                  <span class="newicon">
+                    <div class="line"></div>
+            
+                  </span></li></ul>
+            
+                    
+                    
+            
+            
+            
+            </div></marquee>           
+          
+            </div>
+            </div>
+    </div>
+</div>
+</div>
+
+
+
+<div class="cantainer">
+    <footer class="footer">
+        <div class="container">
+            <!-- Footer User Bar -->
+            <div class="footer__breadcrumblist">
+                
+    
+        
+           
+                </div>
+            <!-- EOF-Footer User Bar -->
+    
+            <!-- Footer To Navigation -->
+            <nav class="footer__navigation" aria-label="global footer menu">
+         
+            </nav>
+            <!-- EOF-Footer To Navigation -->
+    
+      
+            <!-- EOF-Departments Items -->
+    
+            <!-- Statutory links -->
+            <div class="footer__breadcrumblist">
+                                  <div>
+        
+    <div>
+          <div>
+          
+                  <ul>
+                       <li class=""><p style="text-align:justify;" class="">
+            <a href="http://pass.mjpru.org/" target="_blank">Pass Out Student Registration</a>
+                  </p></li>
+        
+              <li class=""><p style="text-align:justify;" class="">
+            <a href="Newtender.aspx" data-drupal-link-system-path="node/79">Tender</a>
+                  </p></li>
+                  <li class=""><p style="text-align:justify;" class="">
+                    <a href="anti_ragging.aspx" data-drupal-link-system-path="node/77">Anti-Ragging</a>
+                          </p></li>
+                           <li class=""><p style="text-align:justify;" class="">
+            <a href="vacancy.aspx" data-drupal-link-system-path="node/77">Recruitment</a>
+            
+              </p></li><li class=""><p style="text-align:justify;" class="">
+            <a href="holidays.aspx" data-drupal-link-system-path="node/76">List of Holiday</a>
+                  </p></li>
+              <li class=""><p style="text-align:justify;" class="">
+            <a href="helpline.aspx" data-drupal-link-system-path="node/75">Helpline</a>
+                  </p></li>
+              <li class=""><p style="text-align:justify;" class="">
+            <a href="#" data-drupal-link-system-path="node/111">University Employee List</a>
+                  </p></li>
+               
+                           <li class=""><p style="text-align:justify;" class="">
+                            <a href="Seminar.aspx" data-drupal-link-system-path="node/111">Seminar &amp; Conference </a>
+                                  </p></li>
+                    
+            </ul>
+        </div>
+      </div>
+    
+      </div>
+    
+                        </div>
+     
+                  
+    <div class="footer__iitlogosec">
+    <div class="row">
+    <div class="col-sm-5">
+    <div class="footer__iitlogo" role="img" aria-label="MJP RohilKhand University,Bareilly Logo">
+       
+        </div></div>
+    <div>
+    <h1 class="footerText">Mahatma Jyotiba Phule Rohilkhand University , Bareilly</h1></div></div></div>
+    <div class="footer__copyright">
+    <div class="row">
+    <div class="col-sm-7 col-md-6">
+    <ul class="clearfix">
+    <li class=""><a href="disclaimer.aspx">Disclaimer</a></li>
+     <li class=""><p style="text-align:justify;" class=""><a href="copyright.aspx">Copyright</a></p></li>
+    <li class=""><a href="privacy-policy.aspx">Privacy Policy</a>         
+                     </li>
+    <li class=""><a href="terms_conditions.aspx">Terms &amp; Conditions</a>                 
+             </li>
+    <li class="">
+        <a href="#"></a>                
+       </li></ul>
+                        </div>
+                    <div class="col-sm-5 col-md-6 text-right">
+                        <!---<p>Powered by</p>--->
+                         <p class="">© 2021 MJPRU , BAREILLY - All Rights Reserved</p>
+                        <h5></h5>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </footer>
+</div>
+    <script type="text/javascript" src="./App.js"></script>
+</body>
+</html>
